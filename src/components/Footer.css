@@ -1,0 +1,22 @@
+.site-footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: var(--primary-color); /* adapte selon ta couleur */
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+  font-size: 0.9rem;
+  z-index: 100;
+}
+
+.site-footer a {
+  color: white;
+  margin: 0 0.5rem;
+  text-decoration: none;
+}
+
+.site-footer a:hover {
+  text-decoration: underline;
+}

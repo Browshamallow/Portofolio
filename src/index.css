@@ -1,0 +1,27 @@
+/* Couleurs EPF : rouge foncé + violet */
+:root {
+  --primary-color: #800040;
+  --secondary-color: #4b0082;
+  --text-color: #333;
+  --bg-color: #f8f8f8;
+  --accent-color: #ffd5e5;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+.container {
+  max-width: 960px;
+  margin: auto;
+  padding: 2rem;
+}
